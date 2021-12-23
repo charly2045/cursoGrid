@@ -1,0 +1,24 @@
+.header {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+.header-item {
+  padding: 50px;
+}
+.header-item__title {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #333;
+}
+.header-item__boton {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: orangered;
+}
+
+.header img {
+  width: 100%;
+  height: 100%;
+}
