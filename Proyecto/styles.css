@@ -1,5 +1,5 @@
 .header {
-  margin-top: 50px;
+  margin: 100px;
   display: grid;
   grid-template-columns: 2fr 3fr;
 }
@@ -21,4 +21,46 @@
 .header img {
   width: 100%;
   height: 100%;
+}
+.galery h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #333;
+  text-align: center;
+  margin-top: 100px;
+}
+.galery-container {
+  margin: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  grid-template-rows: repeat(2, minmax(150px, 1fr));
+  gap: 50px;
+}
+.galery-container figure {
+  margin: 0px;
+}
+.galery-container .big {
+  grid-area: 1 / 1 / 3 / 3;
+}
+.galery-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.menu h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #333;
+  text-align: center;
+  margin-top: 100px;
+}
+.menu-container {
+  margin: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.menu-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
